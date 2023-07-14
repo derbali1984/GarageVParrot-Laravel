@@ -1,6 +1,6 @@
 # Voici la démarche à suivre pour exécuter l'application en local  #
 
-##  Assurez-vous d'avoir PHP et Composer installés sur votre machine. Voici les étapes pour vérifier leur installation  ##
+##  Assurez-vous d'avoir PHP, Composer et XAMPP installés sur votre machine. Voici les étapes pour vérifier leur installation  ##
 
 
   ###  Vérifier l'installation de PHP  ###
