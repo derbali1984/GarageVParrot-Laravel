@@ -24,7 +24,7 @@
 
   ## Ouvrez un terminal ou une ligne de commande et naviguez jusqu'au répertoire racine du projet Laravel. ##
 
-- Exécutez la commande suivante pour mettre à jour les dépendances du projet : `composer update` 
+- Exécutez la commande suivante pour installer les dépendances du projet : `composer install` 
 - Renommez le fichier .env.example en .env
 - Générer la clé d’application : dans le terminal, exécutez la commande suivante pour générer une clé d’application unique pour votre projet :  `php artisan key:generate
 `
