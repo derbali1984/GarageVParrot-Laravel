@@ -14,6 +14,8 @@
    - Tapez la commande suivante : `composer --version`
    - Si Composer est installé, vous verrez la version de Composer affichée à l'écran. Sinon, vous devrez installer Composer. Vous pouvez le télécharger à partir du site officiel de Composer (https://getcomposer.org/download/).
     
+  ###  Installer XAMPP  ###
+
   ## Ouvrez un terminal ou une ligne de commande et naviguez jusqu'au répertoire racine du projet Laravel. ##
 
 - Exécutez la commande suivante pour mettre à jour les dépendances du projet : `composer update` 
