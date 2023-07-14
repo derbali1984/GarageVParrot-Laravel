@@ -159,6 +159,7 @@
 
                     <div class="form">
                         <!-- <form action="{{route('contact.send')}}" method="post" enctype="multipart/form-data">@csrf -->
+                        
                         <form action="" method="post" enctype="multipart/form-data">@csrf
    
                         <div class="row">
