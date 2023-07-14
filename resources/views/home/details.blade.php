@@ -158,8 +158,10 @@
                     </div>
 
                     <div class="form">
-                        <form action="{{route('contact.send')}}" method="post" enctype="multipart/form-data">@csrf
-                            <div class="row">
+                        <!-- <form action="{{route('contact.send')}}" method="post" enctype="multipart/form-data">@csrf -->
+                        <form action="" method="post" enctype="multipart/form-data">@csrf
+   
+                        <div class="row">
                                 <div class="form-group">
                                     <input type="text" class="form-control" name="subject" value="{{ $titreannonce }}" id="subject" style="background-color: #f8f9fa; cursor: not-allowed; opacity: 0.6;">
                                 </div>
