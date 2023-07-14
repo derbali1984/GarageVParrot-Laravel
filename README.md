@@ -15,6 +15,12 @@
    - Si Composer est installé, vous verrez la version de Composer affichée à l'écran. Sinon, vous devrez installer Composer. Vous pouvez le télécharger à partir du site officiel de Composer (https://getcomposer.org/download/).
     
   ###  Installer XAMPP  ###
+  - Téléchargez XAMPP à partir du site officiel (https://www.apachefriends.org/fr/index.html)
+  - Choisissez la version compatible avec votre système d'exploitation.
+  - Lancez le fichier d'installation téléchargé.
+  - Choisissez le dossier d'installation.
+  - Terminez l'installation en suivant les instructions.
+  - Démarrez XAMPP et vérifiez l'état des services Apache et MySQL
 
   ## Ouvrez un terminal ou une ligne de commande et naviguez jusqu'au répertoire racine du projet Laravel. ##
 
