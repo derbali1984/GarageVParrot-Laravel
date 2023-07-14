@@ -26,6 +26,8 @@
 
 - Exécutez la commande suivante pour mettre à jour les dépendances du projet : `composer update` 
 - Renommez le fichier .env.example en .env
+- Générer la clé d’application : dans le terminal, exécutez la commande suivante pour générer une clé d’application unique pour votre projet :  `php artisan key:generate
+`
 - Assurez-vous d'avoir correctement configuré votre fichier .env avec les informations de la base de données.
    Exemple :
     DB_CONNECTION=mysql 
