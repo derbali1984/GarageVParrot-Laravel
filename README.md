@@ -1,6 +1,6 @@
 # Voici la démarche à suivre pour exécuter l'application en local  #
 
-##  Assurez-vous d'avoir PHP et Composer installés sur votre machine. Voici les étapes pour vérifier leur installation  ##
+##  Assurez-vous d'avoir PHP, Composer et XAMPP installés sur votre machine. Voici les étapes pour vérifier leur installation  ##
 
 
   ###  Vérifier l'installation de PHP  ###
@@ -24,8 +24,10 @@
 
   ## Ouvrez un terminal ou une ligne de commande et naviguez jusqu'au répertoire racine du projet Laravel. ##
 
-- Exécutez la commande suivante pour mettre à jour les dépendances du projet : `composer update` 
+- Exécutez la commande suivante pour installer les dépendances du projet : `composer install` 
 - Renommez le fichier .env.example en .env
+- Générer la clé d’application : dans le terminal, exécutez la commande suivante pour générer une clé d’application unique pour votre projet :  `php artisan key:generate
+`
 - Assurez-vous d'avoir correctement configuré votre fichier .env avec les informations de la base de données.
    Exemple :
     DB_CONNECTION=mysql 
