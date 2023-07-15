@@ -1,9 +1,9 @@
-@include('admin.layouts.header')
-@include('admin.layouts.sidebar')
+@include('admin.layouts.Header')
+@include('admin.layouts.Sidebar')
 
 <div class="main-content">
 
     @yield('content')
 </div>
 
-@include('admin.layouts.footer')
+@include('admin.layouts.Footer')
