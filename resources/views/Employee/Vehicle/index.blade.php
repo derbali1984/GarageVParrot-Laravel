@@ -74,7 +74,7 @@
 
                             </tr>
                             <!-- View Modal -->
-                            @include('employee.vehicle.modal')
+                            @include('Employee.Vehicle.modal')
 
                             @endforeach
 
