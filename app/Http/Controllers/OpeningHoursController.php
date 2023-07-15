@@ -17,7 +17,7 @@ class OpeningHoursController extends Controller
     public function index()
     {
         $openingHours = OpeningHours::with('day')->orderBy('day_id')->get();
-        return view('admin.openingHours.index', compact('openingHours'));
+        return view('Admin.openingHours.index', compact('openingHours'));
     }
 
     /**
@@ -27,7 +27,7 @@ class OpeningHoursController extends Controller
      */
     public function create()
     {
-        return view('admin.openingHours.create');
+        return view('Admin.openingHours.create');
     }
 
     /**
@@ -131,7 +131,7 @@ class OpeningHoursController extends Controller
     public function edit($id)
     {
         $openingHour = OpeningHours::find($id);
-        return view('admin.openingHours.edit', compact('openingHour'));
+        return view('Admin.openingHours.edit', compact('openingHour'));
     }
 
     /**
