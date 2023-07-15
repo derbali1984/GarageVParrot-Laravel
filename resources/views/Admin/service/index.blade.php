@@ -60,7 +60,7 @@
                             </tr>
 
                             <!-- View Modal -->
-                            @include('admin.service.modal')
+                            @include('Admin.service.modal')
 
 
 

@@ -55,7 +55,7 @@
                             </tr>
 
                             <!-- View Modal -->
-                            @include('admin.employee.modal')
+                            @include('Admin.employee.modal')
 
 
 
