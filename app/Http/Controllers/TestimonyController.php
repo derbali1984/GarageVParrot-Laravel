@@ -15,7 +15,7 @@ class TestimonyController extends Controller
     public function index()
     {
         $testimonies = Testimony::all();
-        return view('employee.testimony.index', compact('testimonies'));
+        return view('Employee.testimony.index', compact('testimonies'));
     }
 
     /**

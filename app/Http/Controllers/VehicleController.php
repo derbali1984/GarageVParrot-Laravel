@@ -15,7 +15,7 @@ class VehicleController extends Controller
     public function index()
     {
         $vehicles = Vehicle::all();
-        return view('employee.vehicle.index', compact('vehicles'));
+        return view('Employee.vehicle.index', compact('vehicles'));
     }
 
     /**
@@ -25,7 +25,7 @@ class VehicleController extends Controller
      */
     public function create()
     {
-        return view('employee.vehicle.create');
+        return view('Employee.vehicle.create');
     }
 
     /**
@@ -77,7 +77,7 @@ class VehicleController extends Controller
     public function show($id)
     {
         $vehicle = Vehicle::find($id);
-        return view('employee.vehicle.delete', compact('vehicle'));
+        return view('Employee.vehicle.delete', compact('vehicle'));
     }
 
     /**
@@ -89,7 +89,7 @@ class VehicleController extends Controller
     public function edit($id)
     {
         $vehicle = Vehicle::find($id);
-        return view('employee.vehicle.edit', compact('vehicle'));
+        return view('Employee.vehicle.edit', compact('vehicle'));
     }
 
     /**
